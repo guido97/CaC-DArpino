@@ -1,0 +1,19 @@
+#miFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#botones{
+    /* border: solid 1px black; */
+}
+
+.contenedor{
+    margin: 2em 2em 0em 3.1em;
+}
+
+.card{
+margin: 0 1em;
+
+}

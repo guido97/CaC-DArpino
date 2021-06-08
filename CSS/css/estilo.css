@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#contenedor{
+    display: flex;
+    flex-direction: row;
+    margin: 1em ;
+    width: 92%;
+    justify-content: space-between;
+    
+}
+.elemento{
+    width: 100%;
+    padding: 0 0 3em 0;
+    margin: 0.1em;
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: red;
+    color: yellow;
+}
+
+
+
+#caja2{
+    background-color: black;
+    color: white;
+}

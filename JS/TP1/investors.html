@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Inversores - Compu-Market</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <!----- viewport para apple device-width = ancho pantalla initial-scale es que inicia sin ningún zoom --> 
+  <link rel="apple-touch-icon" href="assets/img/">
+  <!----- icono para apple y safari --> 
+  <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+  <!-- Load Require CSS -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+      <!-- iconos  -->
+      <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+      <!-- <link href="assets/css/boxicon.min.css" rel="stylesheet"> -->
+      <!-- tipo de letra -->
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,300&display=swap" rel="stylesheet"> 
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet"> -->
+      <!-- carga CSS -->
+  <link rel="stylesheet" href="assets/css/estilos.css">
+  
+</head>
+<!-----
+.text-primary  		azul
+.text-secondary		gris
+.text-success		verde
+.text-danger		rojo
+.text-warning		amarillo
+.text-info			celeste
+.text-light			blanco
+.text-dark			negro
+.text-muted			gris oscuro
+.text-white			gris claro
+-->
+<!------------------------------------------------------------------ Fin del  HEAD -->
+<body>
+  <!-- Header 
+  nav = cuyo propósito es proporcionar enlaces de navegación, ya sea dentro del documento actual 
+  o a otros documentos
+  -->
+
+  <nav id="main_nav" class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+  
+  <!--navbar-expand-lg = envoltorio para que el navbar se estire en lg
+  navbar-light = texto negro de la letra
+  bg-white = fondo de color blanco
+  -->
+
+      <div class="container d-flex justify-content-between align-items-center">
+      
+          <a class="navbar-brand h1" href="index.html">
+          <!--navbar-brand = clase se utiliza para resaltar la marca o logotipo de su página-->	
+          <span class="iconify" data-icon="dashicons-games" data-inline="false"></span>
+              <!-- <i class='bx bx-buildings bx-sm text-dark'></i> -->
+              <!--	bx bx-buildings = icono del logo de la web: 
+              http://www.unisvg.com/icon-sets/bx/bx-buildings.html 
+              https://boxicons.com/
+              -->
+
+         <span class="text-light h4">Compu-</span><span class="color-nav1 h4">Market</span></a>
+          
+          <!--	boton de hamburguesa --> 
+              <button class="navbar-toggler  border-0" 
+              type="button" data-bs-toggle="collapse" 
+              data-bs-target="#navbar-toggler-success" 
+              aria-controls="navbarSupportedContent" 
+              aria-expanded="false" 
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon">
+              </span>
+          </button>
+      <!------------------------------------------- Opciones del Menu		-->
+      <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" 
+      id="navbar-toggler-success">
+      
+      <!-------collapse navbar-collapse= para agrupar y ocultar el contenido de la barra de navegación 
+      por un punto de interrupción principal.
+      flex-fill = obliga a que todos los elementos tengan el mismo tamaño de ancho
+      d-lg-flex = utilidades para crear un contenedor flexbox y transforme los elementos secundarios 
+      directos en elementos flexibles
+      -->
+                      <div class="flex-fill mx-xl-5 mb-2">
+              <!--	  mx=para clases que establecen tanto *-lefty*-right-->
+                      <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
+                  <!--   .navbar-nav para una navegación ligera y de altura completa 
+                     (incluida la compatibilidad con menús desplegables).-->
+                      <li class="nav-item">
+                          <a class="nav-link btn-outline-primary rounded-pill px-3" href="index.html">Home</a>
+                      <!-- px = padding y mx es el margin 
+                      rounded-pill =genera ese boton con bordes redondeados rounded-circle-->	
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link btn-outline-primary rounded-pill px-3" href="about.html">Sobre Nosotros</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link btn-outline-primary rounded-pill px-3" href="promotions.html">Promociones</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link btn-outline-primary rounded-pill px-3" href="investors.html">Inversores</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link btn-outline-primary rounded-pill px-3" href="contact.html">Contáctanos</a>
+                      </li>
+                  </ul>
+              </div>
+
+<!---------------------------------------------------------Fin de las opciones del menu
+------------------------------------------------------------ Inicio de los iconos del menu-->
+                <div id="navbar-icons" class="navbar align-self-center d-flex">
+                    <a class="nav-link" href="#"><span class="iconify" data-icon="raphael-fave" data-inline="false"></span></a>
+                    <a class="nav-link" href="#"><span class="iconify" data-icon="ant-design:shopping-cart-outlined" data-inline="false"></span></i></a>
+                    <a class="nav-link" href="#"><span class="iconify" data-icon="carbon:user-avatar-filled" data-inline="false"></span></a>
+                </div>
+          </div>
+      </div>
+  </nav><!-- Header -->
+
+<!-- Close Header -->
+
+
+    <!-- Start Banner Hero -->
+    <div id="work_banner" class="banner-wrapper bg-light w-100">
+        <div class="banner-vertical-center-work container text-primary d-flex justify-content-center align-items-center py-5 p-0">
+            <div class="banner-content col-lg-8 col-12 m-lg-auto text-center">
+                <h3 class="h4 pb-2 pt-custom1 regular-400">5 años cotizando en el S&P Merval</h3>
+                <p class="banner-body pb-2 light-300">
+                    Vector illustration <a class="text-white" href="http://freepik.com/" target="_blank">Freepik</a>.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Quis ipsum suspendisse ultrices gravida. Risus
+                    commodo viverra maecenas accumsan lacus.
+                </p>
+               <a href="contact.html"><button type="submit" class="btn rounded-pill btn-outline-light px-4 me-4 light-300">Consultas</button></a>
+             <a href="about.html"><button type="submit" class="btn rounded-pill btn-secondary text-light px-4 light-300">Quienes Somos</button></a>
+            </div>
+        </div>
+    </div>
+    <!-- End Banner Hero -->
+
+    <!-- Start Our Work -->
+    <div class="row text-center m-4">
+        <div class="col-md-3 mb-3">
+            <div class="card partner-wap py-5">
+                <div>
+                    <svg aria-hidden="true" width="48" height="48" viewBox="0 0 512 512" focusable="false" class="icon fa-icon" style="font-size: 3em;">
+                        <path d="M496 384c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16h-464c-17.7 0-32-14.3-32-32v-336c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v304h432zM464 96c8.8 0 16 7.2 16 16v118c0 21.4-25.9 32.1-41 17l-32.4-32.4-96 96c-12.5 12.5-32.8 12.5-45.3 0l-73.4-73.4-46.1 46.1c-6.3 6.3-16.4 6.3-22.6 0l-22.6-22.6c-6.3-6.3-6.3-16.4 0-22.6l68.7-68.7c12.5-12.5 32.8-12.5 45.3 0l73.4 73.4 73.4-73.4-32.4-32.4c-15.1-15.1-4.4-41 17-41h118.1z"></path></svg>
+                        <span class="pt-5"><h6>Información </h6><p>Financiera</p></span><a target="_self" href="#" class="btn btn-primary">Más info.</a>
+                    </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-3">
+            <div class="card partner-wap py-5">
+                <div>
+                    <svg aria-hidden="true" width="48" height="42.666666666666664" viewBox="0 0 576 512" focusable="false" class="icon fa-icon" style="font-size: 3em;"><path d="M336.2 64c26.4 0 47.8 21.4 47.8 47.8v288.4c0 26.4-21.4 47.8-47.8 47.8h-288.4c-26.4 0-47.8-21.4-47.8-47.8v-288.4c0-26.4 21.4-47.8 47.8-47.8h288.4zM525.6 101.7c21.3-14.6 50.4 0.4 50.4 25.8v256.9c0 25.5-29.2 40.4-50.4 25.8l-109.6-75.5v-157.4z"></path>
+                    </svg>
+                    <span><h6>Conferencia de Resultados</h6><p>1Q21</p></span>
+                    <a target="_self" href="#" class="btn btn-primary">Más</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-3">
+            <div class="card partner-wap py-5">
+                <div>
+
+                    <svg aria-hidden="true" width="36" height="48" viewBox="0 0 384 512" focusable="false" class="icon fa-icon" style="font-size: 3em;"><path d="M288 256v64h-192v-64h192zM377 105c4.5 4.5 7 10.6 7 16.9v6.1h-128v-128h6.1c6.4 0 12.5 2.5 17 7zM224 136c0 13.2 10.8 24 24 24h136v328c0 13.3-10.7 24-24 24h-336c-13.3 0-24-10.7-24-24v-464c0-13.3 10.7-24 24-24h200v136zM64 72v16c0 4.4 3.6 8 8 8h80c4.4 0 8-3.6 8-8v-16c0-4.4-3.6-8-8-8h-80c-4.4 0-8 3.6-8 8zM64 136v16c0 4.4 3.6 8 8 8h80c4.4 0 8-3.6 8-8v-16c0-4.4-3.6-8-8-8h-80c-4.4 0-8 3.6-8 8zM320 440v-16c0-4.4-3.6-8-8-8h-80c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8h80c4.4 0 8-3.6 8-8zM320 240c0-8.8-7.2-16-16-16h-224c-8.8 0-16 7.2-16 16v96c0 8.8 7.2 16 16 16h224c8.8 0 16-7.2 16-16v-96z"></path></svg>
+                    <span><h6>Gobierno</h6><p>Corporativo</p></span>
+                    <a target="_self" href="#" class="btn btn-primary">Más</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-3">
+            <div class="card partner-wap py-5">
+                <div>
+                    <svg aria-hidden="true" width="48" height="48" viewBox="0 0 512 512" focusable="false" class="icon fa-icon" style="font-size: 3em;"><path d="M475.1 163.8c16-10.2 36.9 1.3 36.9 20.2v272c0 13.3-10.7 24-24 24h-464c-13.3 0-24-10.7-24-24v-400c0-13.3 10.7-24 24-24h112c13.3 0 24 10.7 24 24v196.3l139.1-88.5c16-10.2 36.9 1.3 36.9 20.2v68.3z"></path></svg>
+                    <span><h6>Información de la</h6><p>Compañía </p></span>
+                    <a target="_self" href="#" class="btn btn-primary">Más</a>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="row">
+            <div class="btn-toolbar justify-content-center pb-4" role="toolbar" aria-label="Toolbar with button groups">
+                <div class="btn-group me-2" role="group" aria-label="First group">
+                    <button type="button" class="btn btn-secondary text-white">Ant.</button>
+                </div>
+                <div class="btn-group me-2" role="group" aria-label="Second group">
+                    <button type="button" class="btn btn-light">1</button>
+                </div>
+                <div class="btn-group me-2" role="group" aria-label="Second group">
+                    <button type="button" class="btn btn-secondary text-white">2</button>
+                </div>
+                <div class="btn-group me-2" role="group" aria-label="Third group">
+                    <button type="button" class="btn btn-secondary text-white">Sig.</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Our Work -->
+
+    <!-- Start Feature Work -->
+    <section class="bg-dark py-5">
+        <div class="feature-work container my-4">
+            <div class="row d-flex d-flex align-items-center">
+                <div class=" col-lg-12">
+                    <h3 class="feature-work-title h4 text-muted light-300">Noticias destacadas</h3>
+                    <h1 class="feature-work-heading h2 py-3 semi-bold-600">30/04/2021</h1>
+                    <p class="feature-work-body text-muted light-300">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
+                        ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                    </p>
+                    <h1 class="feature-work-heading h2 py-3 semi-bold-600">31/03/2021</h1>
+                    <p class="feature-work-footer text-muted light-300">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur.</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- End Feature Work -->
+
+<!-- Start Footer -->
+<footer class="bg-secondary pt-4">
+    <div class="container">
+        <div class="row py-4">
+
+            <div class="col-lg-3 col-12 align-left">
+                <a class="navbar-brand" href="index.html">
+                    <i class='bx bx-buildings bx-sm text-light'></i>
+                    <span class="text-light h5">Compu-</span><span class="text-light h5 semi-bold-600">Market</span>
+                </a>
+                <p class="text-light my-lg-4 my-2">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut.
+                </p>
+                <ul id="social-icons-footer" class="list-inline footer-icons light-300">
+                    <li class="list-inline-item m-0">
+                        <a class="text-light" target="_blank" href="http://facebook.com/">
+                            <span class="iconify" data-icon="akar-icons:facebook-fill" data-inline="false"></span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item m-0">
+                        <a class="text-light" target="_blank" href="https://discord.com/">
+                            <span class="iconify" data-icon="bi-discord" data-inline="false"></span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item m-0">
+                        <a class="text-light" target="_blank" href="https://twitter.com/">
+                            <span class="iconify" data-icon="ant-design:twitter-circle-filled" data-inline="false"></span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item m-0">
+                        <a class="text-light" target="_blank" href="https://telegram.org/">
+                            <span class="iconify" data-icon="akar-icons:telegram-fill" data-inline="false"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                <h3 class="h4 pb-lg-3 text-light light-300">Navegar</h3>
+                    <ul class="list-unstyled text-light light-300">
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light" 
+                            href="index.html">Home</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+                            href="about.html">Nosotros</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+                            href="promotions.html">Promociones</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+                            href="investors.html">Inversores</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+                            href="contact.html">Contáctanos</a>
+                        </li>
+                    </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                <h2 class="h4 pb-lg-3 text-light light-300">Categorías</h2>
+                <ul class="list-unstyled text-light light-300">
+                    <li class="pb-2">
+                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+                        href="#">PC de Escritorio</a>
+                    </li>
+                    <li class="pb-2">
+                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+                        href="#">Portátiles</a>
+                    </li>
+                    <li class="pb-2">
+                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+                        href="#">Periféricos</a>
+                    </li>
+                    <li class="pb-2">
+                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+                        href="#">Gamer</a>
+                    </li>
+                    <li class="pb-2">
+                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+                        href="#">Monitores</a>
+                    </li>
+                    <li class="pb-2">
+                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+                        href="#">SmartWatchs</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                <h2 class="h4 pb-lg-3 text-light light-300">Atendemos en:</h2>
+                <ul class="list-unstyled text-light light-300">
+                    <li class="pb-2">
+                        <i class='bx-fw bx bx-phone bx-xs'></i><a class="text-decoration-none text-light py-1" 
+                        href="tel:010-020-0340">021-2354-4568</a>
+                    </li>
+                    <li class="pb-2">
+                        <i class='bx-fw bx bx-mail-send bx-xs'></i><a class="text-decoration-none text-light py-1"
+                        href="mailto:info@company.com">info@company.com</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="w-100 bg-primary py-3">
+        <div class="container">
+            <div class="row pt-2">
+                <div class="col-lg-6 col-sm-12">
+                    <p class="text-lg-start text-center text-light light-300">
+                        © Copyright 2021 Compu-Market. Todos los derechos reservados.
+                    </p>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <p class="text-lg-end text-center text-light light-300">
+                        Diseñado por <a rel="sponsored" class="text-decoration-none text-light" 
+                        href="https://cursophp.com.ar/" target="_blank"><strong>Guido D'Arpino</strong></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</footer>
+<!-- End Footer -->
+
+
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Lightbox -->
+    <script src="assets/js/fslightbox.js"></script>
+    <script>
+        fsLightboxInstances['gallery'].props.loadOnlyCurrentSource = true;
+    </script>
+    <!-- Load jQuery require for isotope -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Isotope -->
+    <script src="assets/js/isotope.pkgd.js"></script>
+    <!-- Page Script -->
+    <script>
+        $(window).load(function() {
+            // init Isotope
+            var $projects = $('.projects').isotope({
+                itemSelector: '.project',
+                layoutMode: 'fitRows'
+            });
+            $(".filter-btn").click(function() {
+                var data_filter = $(this).attr("data-filter");
+                $projects.isotope({
+                    filter: data_filter
+                });
+                $(".filter-btn").removeClass("active");
+                $(".filter-btn").removeClass("shadow");
+                $(this).addClass("active");
+                $(this).addClass("shadow");
+                return false;
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
